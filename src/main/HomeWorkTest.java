@@ -28,7 +28,7 @@ public class HomeWorkTest {
         String[] array = new String[]{"1, 2, 0", "4, 5"};
 
         //Should be "0, 1, 2, 4, 5"
-        System.out.println(new Task3().method3(array));
+        System.out.println("new Task3().method3(array) = " + new Task3().method3(array));
 
         Stream<Integer> stream1 =  Stream.of(1,2,3,4,5,6,7,8);
         Stream<Integer> stream2 =  Stream.of(9,10,11,12,13);
